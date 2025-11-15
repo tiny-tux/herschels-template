@@ -1,0 +1,33 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Build artifacts
+build/
+*.bin
+*.hex
+*.elf
+
+# macOS
+.DS_Store
+
+# Credentials
+secrets.h
+credentials.h
+
+# Python virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python egg info
+*.egg-info/
+dist/
+build/
