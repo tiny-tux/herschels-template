@@ -1,5 +1,5 @@
 #include "config.h"
-#include "secrets.h"
+#include "credentials.h"
 #include "mqtt.h"
 #include "wireless.h"
 

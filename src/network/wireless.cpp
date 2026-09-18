@@ -1,6 +1,6 @@
 #include "wireless.h"
 #include "config.h"
-#include "secrets.h"
+#include "credentials.h"
 #include <Arduino.h>
 #include <WiFi.h>
 

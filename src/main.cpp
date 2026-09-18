@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <pico/stdlib.h>
 #include "config.h"
-#include "secrets.h"
+#include "credentials.h"
 #include "network.h"
 #include "sensor.h"
 
