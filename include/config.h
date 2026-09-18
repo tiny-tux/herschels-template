@@ -4,6 +4,7 @@
 
 // Turn on/off with comments
 #define ENABLE_DEBUG
+#define ENABLE_WIFI
 #define ENABLE_MQTT
 //#define ENABLE_HTTP
 //#define ENABLE_SERVER // Not finished

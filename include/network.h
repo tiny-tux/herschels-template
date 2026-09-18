@@ -1,7 +1,10 @@
 #pragma once
 
 #include "config.h"
+
+#ifdef ENABLE_WIFI
 #include "wireless.h"
+#endif
 
 #ifdef ENABLE_MQTT
 #include "mqtt.h"
@@ -21,7 +24,9 @@ class NetworkManager {
         void connect();
         void loop();
     
+        #ifdef ENABLE_WIFI
         WiFiManager wifi;
+        #endif
 
         #ifdef ENABLE_MQTT
         MQTTManager mqtt;
